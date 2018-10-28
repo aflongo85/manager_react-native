@@ -5,7 +5,6 @@ import { TextInput, View, Text } from 'react-native';
 const Input = ({ label, value, onChangeText, placeholder, secureTextEntry, autoCapitalize="none", keyboardType="default" } = props) => {
 
     const { textInputStyle, labelStyle, containerStyle } = styles;
-    console.log(label);
     
     return (
         <View style={containerStyle}>
